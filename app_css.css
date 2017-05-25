@@ -1,0 +1,64 @@
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 700px}
+/* Set gray background color and 100% height(LHS) */
+.sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+}
+.listWrapper{
+    overflow-y: auto;
+    height: 580px;
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+     /*   padding: 15px;*/
+    }
+    .row.content {height: auto;}
+}
+.col-sum-8{
+    overflow-y: auto;
+    height: 580px;
+}
+#tNote {
+
+    height: 200px;
+}
+#noteTable{
+
+width: 100%;
+table-layout: fixed;
+}
+th{
+  padding: 10px;
+    text-align: left;
+}
+td{
+ padding: 5px;
+}
+#textCol{
+    font-style: italic;
+    padding: 5px;
+}
+#displayLabel{
+    font-size: 20px;
+    text-decoration-color: #555555;
+}
+#displayArea{
+    padding-top: 10px;
+}
+#noteWrapper{
+    background-color: #f1f1f1;
+    border: solid 1px #c3c3c3;
+    padding: 5px;
+    display: none;
+}
+#addNote{
+    background-color: #f1f1f1;
+}
+#divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
